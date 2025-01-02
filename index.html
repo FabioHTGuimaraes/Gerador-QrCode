@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inclui o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Define o ícone da página -->
+    <link rel="icon" href="img/Captura_de_tela_2025-01-02_153011-removebg-preview.png">
+
+    <!-- Inclui o arquivo de script JavaScript -->
+    <script src="script.js"></script>
+
+    <!--Links do bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--Links do biblioteca QRCode.js-->
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    
+    <!--Nome da pagina-->
+    <title>Fabio Guimarães - Portfólio</title>
+
+</head>
+
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+
+        <nav>
+
+            <img src="img/Captura_de_tela_2025-01-02_153011-removebg-preview.png">
+
+            <div>
+                <h1>QrCode Gerador</h1>
+                <h3>Crie seu QrCode Gratuito</h3>
+            </div>
+
+        </nav>
+
+    </header>
+    
+    <!-- Conteúdo principal -->
+    <main>
+
+        <div id="qrcode">
+            <div id="qrcode-wrapper">
+                <div id="qrcode-img"></div> <!-- O QR code será gerado aqui -->
+            </div>
+            <input type="text" id="text-input" placeholder="Digite o texto para o QR Code...">
+            <button onclick="generateQRCode()">Gerar QR Code</button>
+            <button id="download-btn" onclick="downloadQRCode()">Baixar QR Code</button>
+        </div>
+  
+    </main>
+    
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; Todos os direitos reservados.</p>
+        <p>Desenvolvido por Fabio Guimarães</p>
+    </footer>
+
+</body>
+
+</html>
