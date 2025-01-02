@@ -39,7 +39,8 @@ header {
 nav {
     display: flex;
     background-color: #333;
-    color: #fff;       
+    color: #fff;     
+    margin: 1%;  
 }
 
 nav img {
