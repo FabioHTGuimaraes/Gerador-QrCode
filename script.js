@@ -29,3 +29,9 @@ function downloadQRCode() {
         a.click();
     }
 }
+
+// Função para redirecionar para o instagram
+function redirecionarParaPagina1() {
+    // Redireciona para outra página
+    window.open("https://www.linkedin.com/in/fabioguimaraes1/", "_blank");
+}
